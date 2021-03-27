@@ -1,9 +1,3 @@
-//let cup = arc(170, x1, 50, 50, 0, PI + QUARTER_PI, CHORD)
-           
-//let mySound = cup;
-//function preload() {
-  //soundFormats('mp3', 'ogg');
-  //mySound = loadSound('sip.mp3');}
 
   let armRX = 100
   let armRY = 180
@@ -71,10 +65,5 @@ function draw() {
   //cup
   fill (50, 24, 8)
   arc(170, x1, 50, 50, 0, PI + QUARTER_PI, CHORD);
-
-
-  //function mouseMoved() {
-  //if (mouseY < 180 && !soundFile.isPlaying()) {
-  //soundFile.play();} }
   
 }
